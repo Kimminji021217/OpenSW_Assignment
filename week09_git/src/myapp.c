@@ -6,7 +6,7 @@ double calculate(char *op, double a, double b) {
     printf("Calculating.....\n");
 
     if (strcmp(op, "+") == 0) {
-        return myadd(a, b);
+        return mypow(a, b);
     }
     else if (strcmp(op, "-") == 0) {
         return mysub(a, b);
@@ -16,6 +16,12 @@ double calculate(char *op, double a, double b) {
     }
     else if (strcmp(op, "/") == 0) {
         return mydiv(a, b);
+    }
+    else if (strcmp(op, "%") == 0) {
+        return mymod(a, b);
+    }
+    else if (strcmp(op, "^") == 0) {
+        return mypow(a, b);
     }
     
     else {
