@@ -1,0 +1,38 @@
+UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+root           1       0       1  0    1 19:34 ?        00:00:00 /sbin/init
+root           2       1       2  0    2 19:34 ?        00:00:00 /init
+root           2       1       8  0    2 19:34 ?        00:00:00 /init
+root           6       2       6  0    2 19:34 ?        00:00:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root           6       2       7  0    2 19:34 ?        00:00:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          42       1      42  0    1 19:34 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root          94       1      94  0    1 19:34 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+systemd+     104       1     104  0    1 19:34 ?        00:00:00 /usr/lib/systemd/systemd-resolved
+systemd+     105       1     105  0    2 19:34 ?        00:00:00 /usr/lib/systemd/systemd-timesyncd
+systemd+     105       1     141  0    2 19:34 ?        00:00:00 /usr/lib/systemd/systemd-timesyncd
+root         157       1     157  0    1 19:34 ?        00:00:00 /usr/sbin/cron -f -P
+message+     158       1     158  0    1 19:34 ?        00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         175       1     175  0    1 19:34 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root         180       1     180  0    8 19:34 ?        00:00:00 /usr/libexec/wsl-pro-service -vv
+root         180       1     256  0    8 19:34 ?        00:00:00 /usr/libexec/wsl-pro-service -vv
+root         180       1     257  0    8 19:34 ?        00:00:00 /usr/libexec/wsl-pro-service -vv
+root         180       1     258  0    8 19:34 ?        00:00:00 /usr/libexec/wsl-pro-service -vv
+root         180       1     259  0    8 19:34 ?        00:00:00 /usr/libexec/wsl-pro-service -vv
+root         180       1     260  0    8 19:34 ?        00:00:00 /usr/libexec/wsl-pro-service -vv
+root         180       1     276  0    8 19:34 ?        00:00:00 /usr/libexec/wsl-pro-service -vv
+root         180       1     287  0    8 19:34 ?        00:00:00 /usr/libexec/wsl-pro-service -vv
+root         187       1     187  0    1 19:34 hvc0     00:00:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+root         212       1     212  0    1 19:34 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+syslog       214       1     214  0    4 19:34 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+syslog       214       1     280  0    4 19:34 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+syslog       214       1     281  0    4 19:34 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+syslog       214       1     282  0    4 19:34 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         246       1     246  0    2 19:34 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         246       1     298  0    2 19:34 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         339       2     339  0    1 19:34 ?        00:00:00 /init
+root         340     339     340  0    1 19:34 ?        00:00:00 /init
+rlaminw+     341     340     341  0    1 19:34 pts/0    00:00:00 -bash
+root         342       2     342  0    1 19:34 pts/1    00:00:00 /bin/login -f
+rlaminw+     431       1     431  0    1 19:34 ?        00:00:00 /usr/lib/systemd/systemd --user
+rlaminw+     432     431     432  0    1 19:34 ?        00:00:00 (sd-pam)
+rlaminw+     443     342     443  0    1 19:35 pts/1    00:00:00 -bash
+rlaminw+     771     341     771  0    1 20:59 pts/0    00:00:00 ps -eLf
