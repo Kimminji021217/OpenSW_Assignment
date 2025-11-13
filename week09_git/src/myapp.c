@@ -32,7 +32,7 @@ double calculate(char *op, double a, double b) {
 
 int main() {
     double a, b;
-    char op;
+    char op[3];
 
     printf("~~~ Welcome to my calculator ~~~\n\n");
     printf("Enter expression (e.g. 1 + 2): ");
