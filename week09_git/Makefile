@@ -33,3 +33,4 @@ $(TARGET): $(LIB).so.1.0 $(SRC_DIR)/myapp.c
 
 clean:
 	rm -f $(OBJ_DIR)/*.o $(LIB_DIR)/*.so* $(TARGET)
+

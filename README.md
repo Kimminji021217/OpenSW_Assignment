@@ -20,9 +20,10 @@ Each directory corresponds to a specific assignment or lecture.
 * **'week02/'**: Introduction to Linux & Basic Commands
 * **'week03/'**: Introduction to Linux & Basic Commands
 * **'week04/'**: Introduction to Linux & Basic Commands
-* **'week06_bash/'**: Assignments related to Bash scripting
-* **'week07_gcc/'**: Assignments on using the GCC compiler and linker.
-* **'week08_make/'**: Introduction to Makefiles for project automatically.
+* **'week06_bash/'**: Assignments related to Bash scripting.
+* **'week07_gcc/'**: Assignments on using the GCC compiler and linking.
+* **'week08_make/'**: Introduction to Makefiles for project automation.
 * **'week08_make_v2/'**: Advanced Makefiles, including recursive call.
 * **'week09_git/'**: Assignments on Git version control (branching, merging).
+* **'week11_syscall_file/'**: File I/O system calls.
  
